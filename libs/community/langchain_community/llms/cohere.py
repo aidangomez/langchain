@@ -126,7 +126,7 @@ class Cohere(LLM, BaseCohere):
     k: int = 0
     """Number of most likely tokens to consider at each step."""
 
-    p: int = 1
+    p: int = 0.75
     """Total probability mass of tokens to consider at each step."""
 
     frequency_penalty: float = 0.0
